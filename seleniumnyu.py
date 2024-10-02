@@ -5,10 +5,6 @@ import time
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from gtts import gTTS
-import playsound
-import os
-import base64
 
 import sounddevice as sd
 import soundfile as sf
